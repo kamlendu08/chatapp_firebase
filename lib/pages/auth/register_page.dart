@@ -40,9 +40,10 @@ class _RegisterPageState extends State<RegisterPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        const Text(
-                          'Groupie',
+                        Text(
+                          'GROUPIE',
                           style: TextStyle(
+                            color: Theme.of(context).primaryColor,
                             fontSize: 40,
                             fontWeight: FontWeight.bold,
                           ),
@@ -53,8 +54,8 @@ class _RegisterPageState extends State<RegisterPage> {
                         const Text(
                           'Create your account now to chat and emplore',
                           style: TextStyle(
-                            fontSize: 15,
-                            fontWeight: FontWeight.w400,
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                         Image.asset('assets/register.png'),

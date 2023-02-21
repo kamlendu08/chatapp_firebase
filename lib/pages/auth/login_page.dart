@@ -31,9 +31,10 @@ class _LoginPageState extends State<LoginPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const Text(
-                    'Groupie',
+                  Text(
+                    'GROUPIE',
                     style: TextStyle(
+                      color: Theme.of(context).primaryColor,
                       fontSize: 40,
                       fontWeight: FontWeight.bold,
                     ),
@@ -44,8 +45,8 @@ class _LoginPageState extends State<LoginPage> {
                   const Text(
                     'Login now to see what they are talking!',
                     style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w400,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   Image.asset('assets/login.png'),

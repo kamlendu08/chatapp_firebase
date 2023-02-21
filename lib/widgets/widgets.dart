@@ -1,4 +1,4 @@
-import 'dart:js';
+//import 'dart:js';
 
 import 'package:flutter/material.dart';
 
@@ -18,8 +18,9 @@ final textInputDecoration = InputDecoration(
     borderSide: const BorderSide(color: Color(0xFFee7b64), width: 2),
     borderRadius: BorderRadius.circular(50.0),
   ),
-  errorBorder: const OutlineInputBorder(
+  errorBorder: OutlineInputBorder(
     borderSide: BorderSide(color: Color(0xFFee7b64), width: 2),
+    borderRadius: BorderRadius.circular(50.0),
   ),
 );
 
